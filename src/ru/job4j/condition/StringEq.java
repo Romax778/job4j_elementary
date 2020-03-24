@@ -14,4 +14,4 @@ public class StringEq {
             System.out.println(userHasAccess);
         }
     }
-}
+
