@@ -10,13 +10,22 @@ public class Counter {
         return sum;
     }
 
-    public static void main(String[] args) {
-        int x = 0;
-        int y = 10;
 
-        System.out.println(sum(x, y));
-        System.out.println(sum(3, 8));
-        System.out.println(sum(1, 1));
+    public static int sumByEven(int start, int finish) {
+        int sum = 0;
+        for ( int i = start; i <= finish; i++ ) {
+            if (start == i % 2 ) {
+                sum = sum + i ;
+            }
+        }
+        return sum;
     }
-}
 
+    public static void main(String[] args) {
+
+
+            System.out.println(sumByEven(0, 10));
+            System.out.println(sumByEven(3, 8));
+            System.out.println(sumByEven(1, 1));
+        }
+}
