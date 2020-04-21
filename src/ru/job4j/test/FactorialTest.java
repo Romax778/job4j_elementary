@@ -1,7 +1,8 @@
-package ru.job4j.loop;
+package ru.job4j.test;
 
 import org.junit.Test;
 import ru.job4j.condition.Max;
+import ru.job4j.loop.Factorial;
 
 import static org.hamcrest.core.Is.is;
 import static org.junit.Assert.assertThat;
