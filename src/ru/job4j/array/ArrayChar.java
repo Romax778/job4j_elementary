@@ -6,15 +6,14 @@ public class ArrayChar {
 
         boolean result = true;
 
-        for (int i = 0; i < word.length; i++) {
-            for (int j = i; j < pref.length; j++) {
-                if (word[i] == pref[j]) {
-result = true;
-                }else {
-                    result = false;
+        for (int i = 0; i < pref.length; i++) {
+
+                if (word[i] != pref[i]) {
+                   return false;
                 }
             }
 
-        }return result;
+
+        return true;
     }
 }
