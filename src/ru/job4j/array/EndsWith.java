@@ -7,11 +7,11 @@ public class EndsWith {
 
             for (int i = post.length-1, j = word.length-1;i >=0; i--,j--) {
                 if (post[i] != word[j]) {
-                    return false;
+                    result = false;
                 }
             }
 
 
-        return true;
+        return result;
     }
 }
