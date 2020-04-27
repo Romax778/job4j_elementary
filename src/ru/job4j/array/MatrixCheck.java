@@ -1,41 +1,57 @@
 package ru.job4j.array;
 
 public class MatrixCheck {
-  /*  public static boolean monoHorizontal(char[][] board, int row) {
-        boolean result = true;
+     public static boolean monoHorizontal(char[][] board, int row) {
+          boolean result = true;
+
+          for (int i = 0; i < board.length; i++) {
+
+              if (board[row][i]!='X') {
+
+              }
+                      return  false;
 
 
-        for (int i = 0; i < board.length-1; i++) {
+                  }
+         return  true;
 
-            for (int j = 0; j < board[i].length-1; j++) {
+              }
 
-                if ((board[i][j+1]) != 'X' ) {
-                    result = false;
-                    break;
 
-                }
 
+
+
+  public static boolean monoVertical(char[][] board, int column) {
+      boolean result = true;
+      for (int i =0; i<board.length;i++) {
+          if (board[i][column ]!= 'X') {
+              result = false;
+              break;
+          }
+      }
+      return result;
+  }
+    public static char[] extractDiagonal(char[][] board) {
+        char[] rsl = new char[board.length];
+        for ( int i = 0; i < board.length; i ++ ) {
+            rsl[i] = board[i][i];
+        }
+        return rsl;
+    }
+    public static boolean isWin(char[][] board) {
+        boolean result = false;
+        for ( int i = 0; i < board.length; i++ ) {
+            if (board[i][i] == 'X'  ) {
+                result = true;
+                break;
             }
-
-
         }
         return result;
-    }*/
-    public static char[]extractDiagonal(char[][]board){
-        char[]rsl=new char[board.length];
-        char ch = 'X';
-        for(int i=0;i<rsl.length-1; i++){
-            rsl[i+1]=board[i][i];
-            rsl[i]= ch; ;
-
-            }
-
-        return rsl;
-
-        }
-
-
     }
+
+}
+
+
 
 
 
