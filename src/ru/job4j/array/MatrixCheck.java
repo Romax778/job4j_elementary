@@ -8,11 +8,12 @@ public class MatrixCheck {
 
             if (board[row][i] != 'X') {
 
-            }
-            return false;
 
+                return false;
+            }
 
         }
+
         return true;
 
     }
