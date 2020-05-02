@@ -6,15 +6,15 @@ public class MatrixCheck {
 
         for (int i = 0; i < board.length; i++) {
 
-            if (board[i][row] != 'X') {
+            if (board[row][i] != 'X') {
 
-
-                return false;
+                result = false;
+                break;
             }
 
         }
 
-        return true;
+        return result;
 
     }
 
