@@ -7,13 +7,13 @@ public class Defragment {
                 int point = i; // указатель, на не null ячейку.
                 // переместить первую не null ячейку
                 // Здесь нужен цикл while
-                while(point != array.length){
-                  if (array[point] != null){
-                      array[i] = array[point];
-                      array[point]=null;
-                      break;
-                  }
-                  point++;
+                while (point != array.length) {
+                    if (array[point] != null) {
+                        array[i] = array[point];
+                        array[point] = null;
+                        break;
+                    }
+                    point++;
                 }
 
             }
