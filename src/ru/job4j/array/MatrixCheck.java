@@ -46,8 +46,8 @@ public class MatrixCheck {
                  boolean x = monoVertical(board, i);
                 boolean y = monoHorizontal(board, i);
                 result = x || y;
-                if (result){
-                    break;
+                if (result) {
+                      break;
                 }
 
 
@@ -56,7 +56,7 @@ public class MatrixCheck {
         return result;
     }
 
-    public static void main (String[]args) {
+    public static void main(String[]args) {
         char[][] input = {
                 {' ', ' ', ' ', ' ', ' '},
                 {' ', ' ', ' ', ' ', ' '},
