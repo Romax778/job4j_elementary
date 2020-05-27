@@ -25,8 +25,8 @@ public class Point {
 
     }
     public double distance3d(Point that) {
-        double distance = Math.sqrt(Math.pow((that.x - x), 2) + Math.pow((that.y - y), 2) + Math.pow((that.z - z),  2));;
-         return 0;
+      return    Math.sqrt(Math.pow((that.x - x), 2) + Math.pow((that.y - y), 2) + Math.pow((that.z - z),  2));
+
     }
     public void info() {
         System.out.println(String.format("Point[%s, %s ,%s]", this.x, this.y, this.z));
