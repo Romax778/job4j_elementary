@@ -7,3 +7,5 @@ public class Max {
             return result;    }
     }
 
+   /* double temp = 5.97985646788;
+    double res = Math.round(temp * 100) / 100.0;*/
