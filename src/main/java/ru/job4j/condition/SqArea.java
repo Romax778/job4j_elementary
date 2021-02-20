@@ -13,9 +13,12 @@ return s;
            // return Math.pow(p, 2.0) / (4 * k * Math.pow(1.0 + 1 / k, 2.0));
         }
 
-        public static void main(String[] args) {
+        public static void main(String[]args) {
             double result1 = square(6, 2);
             System.out.println(" s = " + result1);
         }
     }
+
+
+
 

@@ -1,4 +1,4 @@
-package ru.job4j.test;
+package java;
 import org.junit.Test;
 import ru.job4j.array.FindLoop;
 

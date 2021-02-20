@@ -1,4 +1,4 @@
-package ru.job4j;
+package java;
 
 import org.junit.Test;
 import static org.hamcrest.CoreMatchers.is;
